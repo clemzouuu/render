@@ -1,0 +1,16 @@
+services:
+  - type: web  
+    plan: free
+    name: render.node.js
+    runtime: node.js
+    repo: https://github.com/clemzouuu/render/tree/main/esgi.4a.render.nodejs
+    startCommand: "npm start"
+    envVars:
+      - key: postgresql://database_nz46_user:vZG2BoZVT6WZ56LbJQ12fu2uJXn7FthT@dpg-ct3i48t6l47c73f1l0og-a/database_nz46
+        fromDatabase:
+          name: database
+          property: connectionString
+
+databases:
+  - name: database
+    plan: free
