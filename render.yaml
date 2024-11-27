@@ -4,6 +4,7 @@ services:
     name: render.node.js
     runtime: node
     repo: https://github.com/clemzouuu/render
+    buildCommand: "npm i"
     startCommand: "npm start"
     envVars:
       - key: DATABASE_URL
