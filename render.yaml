@@ -3,7 +3,7 @@ services:
     plan: free
     name: render.node.js
     runtime: node
-    repo: https://github.com/clemzouuu/render/tree/main/esgi.4a.render.nodejs
+    repo: https://github.com/clemzouuu/render
     startCommand: "npm start"
     envVars:
       - key: postgresql://database_nz46_user:vZG2BoZVT6WZ56LbJQ12fu2uJXn7FthT@dpg-ct3i48t6l47c73f1l0og-a/database_nz46
