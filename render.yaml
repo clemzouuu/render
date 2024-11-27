@@ -2,7 +2,7 @@ services:
   - type: web  
     plan: free
     name: render.node.js
-    runtime: node.js
+    runtime: node
     repo: https://github.com/clemzouuu/render/tree/main/esgi.4a.render.nodejs
     startCommand: "npm start"
     envVars:
